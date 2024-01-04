@@ -341,6 +341,7 @@ template {
   padding: 0 20px;
 }
 
+
 body {
   background-image: url("../../images/bgimg.jpg");
   background-repeat: no-repeat;
@@ -401,4 +402,81 @@ body {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 2.7px;
-}/*# sourceMappingURL=main.css.map */
+
+.crew-body {
+  background-image: url(../../images/Bitmapcrew.png);
+}
+
+.header-crew {
+  margin-top: 40px;
+}
+
+.hero {
+  padding: 62px 0px 0px 100px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.hero__content-title1 {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  margin-bottom: 154px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+}
+
+.hero__content-title {
+  color: #FFF;
+  font-family: Bellefair;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  opacity: 0.5042;
+}
+
+.spanner {
+  margin-right: 24px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  opacity: 0.25;
+}
+
+.span__flexer {
+  display: flex;
+}
+
+.hero__content-title2 {
+  margin: 15px 0px 27px 0;
+  color: #FFF;
+  font-family: Bellefair;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.hero__content-text {
+  color: #D0D6F9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+
+.circlescrew {
+  display: inline-block;
+  margin-top: 120px;
