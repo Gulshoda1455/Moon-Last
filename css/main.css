@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Bellefair", serif;
+  font-family: "Barlow", sans-serif;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -331,6 +336,71 @@ template {
 }
 
 .container {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+body {
+  background-image: url("../images/body-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.site-header {
+  padding: 50px 0;
+  padding-left: 55px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header_logo {
+  display: inline-block;
+}
+
+.header-navbar {
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40.7742271423px);
+          backdrop-filter: blur(40.7742271423px);
+  padding: 39px 167px 38px 123px;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item + .navbar-item {
+  margin-left: 50px;
+}
+
+.navbar-link {
+  margin-left: 11px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.hero_texnology-wrapper-text {
+  margin-left: 24px;
+  color: #FFF;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+}
+
+.hero_texnology-wrapper {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
