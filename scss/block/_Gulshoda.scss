@@ -1,0 +1,62 @@
+body{
+    background-image: url("../images/body-bg.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 100vh;
+}
+.site-header {
+    padding: 50px 0 ;
+    padding-left: 55px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header_logo {
+    display: inline-block;
+}
+
+.header-navbar {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    padding: 39px 167px 38px 123px;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+}
+.navbar-item {
+    & + &{
+        margin-left: 50px;
+    }
+}
+
+.navbar-link {
+    margin-left: 11px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    
+}
+.hero_texnology-wrapper-text{
+    margin-left: 24px;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    
+}
+.hero_texnology-wrapper{
+    display: flex;
+    align-items: center;
+}
